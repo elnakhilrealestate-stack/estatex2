@@ -14,8 +14,9 @@
   --color-mute: #98a1b3;
   --color-mute-dark: #79715f;
 
-  --font-display: var(--font-fraunces), "Georgia", serif;
-  --font-body: var(--font-manrope), "Helvetica Neue", sans-serif;
+  /* System stacks keep the app buildable when remote font downloads are unavailable. */
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: "Helvetica Neue", Arial, sans-serif;
 
   --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
 }
